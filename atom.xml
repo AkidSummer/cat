@@ -2,18 +2,80 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ki.xiongzi.top</id>
     <title>海に行く</title>
-    <subtitle></subtitle>
+    <subtitle>我有一个梦，也许有一天，灿烂的阳光能照进黑暗森林</subtitle>
     <icon>https://ki.xiongzi.top/images/favicon.ico</icon>
     <link href="https://ki.xiongzi.top" />
     <author>
       <name>海に行く</name>
     </author>
-    <updated>2022-03-17T04:44:41.000Z</updated>
+    <updated>2022-03-16T04:40:20.000Z</updated>
+    <entry>
+        <id>https://ki.xiongzi.top/post/49435/</id>
+        <title>使用Docsify搭建自己的知识库</title>
+        <link rel="alternate" href="https://ki.xiongzi.top/post/49435/"/>
+        <content type="html">&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/49435/&#34;&gt;🚀基本环境&lt;/a&gt; - &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8jLw==&#34;&gt;💌基础配置&lt;/span&gt; - &lt;a href=&#34;/post/88222415/&#34;&gt;📌定制功能&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;使用docsify搭建自己的知识库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用docsify搭建自己的知识库&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;使用 Docsify 搭建自己的知识库&lt;/span&gt;&lt;/h1&gt;
+&lt;h1 id=&#34;docsify简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docsify简介&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;Docsify 简介&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;docsify 是一个超级好用的文档站点生成器！特点是使用简单，跟着官网教程输入两行命令就能完成安装和生成站点了，生成的文档样式也很精简优雅，并且是响应式的，手机上看也很不错。&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9saW5rcy5qaWFuc2h1LmNvbS9nbz90bz1odHRwcyUzQSUyRiUyRmRvY3NpZnkuanMub3JnJTJGJTIzJTJGemgtY24lMkY=&#34;&gt;docsify 中文文档&lt;/span&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;一个神奇的文档站点生成器&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搭建&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;搭建&lt;/span&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3JlcG8ueGlvbmd6aS50b3Av&#34;&gt;预览我的知识库&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/223828.png&#34; alt=&#34;223828&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;必备环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#必备环境&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;必备环境&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;node&lt;/li&gt;
+&lt;li&gt;npm&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;全局安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#全局安装&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;全局安装&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;安装脚手架工具 docsify-cli，安装过程中较慢的可以切换 npm 源为 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamlhbnNodS5jb20vZGV2b3BzL25wbS1kZXBsb3kubWQ=&#34;&gt;cnpm&lt;/span&gt;&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; i docsify-cli -g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;验证&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#验证&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;验证&lt;/span&gt;&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ docsify -v&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;出现版本好几安装成功&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/230436.png&#34; alt=&#34;屏幕截图 2022-03-15 230436&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;初始化文档&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#初始化文档&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;初始化文档&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;docs 为项目文件，可以自定义。&lt;/p&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ docsify init docs&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;执行完以上命令 docs 文件目录下会生成以下 3 个文件：&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/230337.png&#34; alt=&#34;屏幕截图 2022-03-15 230337&#34; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;index.html&lt;/code&gt; ：入口文件。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;README.md&lt;/code&gt; ：默认做为主页内容渲染。&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;.nojekyll&lt;/code&gt; ：防止 Github 忽略带下划线的文件。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;进入项目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进入项目&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;进入项目&lt;/span&gt;&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; docs&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;启动本地服务预览&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#启动本地服务预览&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;启动本地服务预览&lt;/span&gt; **&lt;/h2&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ docsify serve&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/230315.png&#34; alt=&#34;230315&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;直接编辑 docs/README.md 就能更新文档内容，当然也可以添加更多页面。&lt;/p&gt;
+&lt;h1 id=&#34;部署&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#部署&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;部署&lt;/span&gt;&lt;/h1&gt;
+&lt;h2 id=&#34;github新建一个仓库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github新建一个仓库&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;GitHub 新建一个仓库&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/234313.png&#34; alt=&#34;234313&#34; /&gt;&lt;/p&gt;
+&lt;h2 id=&#34;将本地项目推送到github&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#将本地项目推送到github&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;将本地项目推送到 GitHub&lt;/span&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;本地 docs 目录下，打开 Git，输入命令： &lt;code&gt;git init&lt;/code&gt; 。初始化本地仓库 docs&lt;/li&gt;
+&lt;li&gt;将文件添加到仓库并提交：&lt;/li&gt;
+&lt;/ul&gt;
+&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; init   // 初始化版本库&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;token builtin class-name&#34;&gt;.&lt;/span&gt;   // 添加文件到版本库（只是添加到缓存区），.代表添加文件夹下所有文件 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; commit -m &lt;span class=&#34;token string&#34;&gt;&#34;first commit&#34;&lt;/span&gt; // 把添加的文件提交到版本库，并填写提交备注&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; remote &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; origin 你的远程库地址  // 把本地库与远程库关联&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push -u origin master    // 第一次推送时&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push origin master  // 第一次推送后，直接使用该命令即可推送修改&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;开启githubpage&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开启githubpage&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;开启 GitHubPage&lt;/span&gt;&lt;/h2&gt;
+&lt;p&gt;选择分支&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/230436.png&#34; alt=&#34;230436&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;点击给出的域名或者自定义域名查看&lt;/p&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/124509.png&#34; alt=&#34;124509&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8jLw==&#34;&gt;基础配置与官方无异，点击查看&lt;/span&gt;&lt;/p&gt;
+</content>
+        <category term="Docsify" scheme="https://ki.xiongzi.top/categories/Docsify/" />
+        <category term="Docsify" scheme="https://ki.xiongzi.top/tags/Docsify/" />
+        <updated>2022-03-16T04:40:20.000Z</updated>
+    </entry>
     <entry>
         <id>https://ki.xiongzi.top/post/88222415/</id>
         <title>Docsify定制功能</title>
         <link rel="alternate" href="https://ki.xiongzi.top/post/88222415/"/>
-        <content type="html">&lt;h1 id=&#34;定制功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#定制功能&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;定制功能&lt;/span&gt;&lt;/h1&gt;
+        <content type="html">&lt;div class=&#34;note primary&#34;&gt;
+&lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/49435/&#34;&gt;🚀基本环境&lt;/a&gt; - &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8jLw==&#34;&gt;💌基础配置&lt;/span&gt; - &lt;a href=&#34;/post/88222415/&#34;&gt;📌定制功能&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;h1 id=&#34;定制功能&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#定制功能&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;定制功能&lt;/span&gt;&lt;/h1&gt;
 &lt;h1 id=&#34;支持dot语言作图&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#支持dot语言作图&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;支持 DOT 语言作图&lt;/span&gt;&lt;/h1&gt;
 &lt;blockquote&gt;
 &lt;p&gt;DOT 语言是贝尔实验室开发的用于作图的脚本语言，最初在桌面端程序 Graphviz 中支持。后来有人开发了 Viz.js 使得浏览器端也能支持 DOT 语言作图的渲染。我们的目的如下：当 Markdown 渲染器识别到一处语言名为 dot 代码块时，就调用 Viz.js 渲染代码块中的语句，使它们成为 DOT 语言定义的矢量图。&lt;/p&gt;
@@ -153,66 +215,7 @@ An alert of type ‘danger’ using global style ‘callout’.&lt;/p&gt;
 </content>
         <category term="Docsify" scheme="https://ki.xiongzi.top/categories/Docsify/" />
         <category term="Docsify" scheme="https://ki.xiongzi.top/tags/Docsify/" />
-        <updated>2022-03-17T04:44:41.000Z</updated>
-    </entry>
-    <entry>
-        <id>https://ki.xiongzi.top/post/49435/</id>
-        <title>使用Docsify搭建自己的知识库</title>
-        <link rel="alternate" href="https://ki.xiongzi.top/post/49435/"/>
-        <content type="html">&lt;div class=&#34;note primary&#34;&gt;
-&lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/49435/&#34;&gt;🚀基本环境&lt;/a&gt; - &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8jLw==&#34;&gt;💌基础配置&lt;/span&gt; - &lt;a href=&#34;/post/88222415/&#34;&gt;📌定制功能&lt;/a&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;h1 id=&#34;使用docsify搭建自己的知识库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用docsify搭建自己的知识库&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;使用 Docsify 搭建自己的知识库&lt;/span&gt;&lt;/h1&gt;
-&lt;h1 id=&#34;docsify简介&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#docsify简介&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;Docsify 简介&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;docsify 是一个超级好用的文档站点生成器！特点是使用简单，跟着官网教程输入两行命令就能完成安装和生成站点了，生成的文档样式也很精简优雅，并且是响应式的，手机上看也很不错。&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9saW5rcy5qaWFuc2h1LmNvbS9nbz90bz1odHRwcyUzQSUyRiUyRmRvY3NpZnkuanMub3JnJTJGJTIzJTJGemgtY24lMkY=&#34;&gt;docsify 中文文档&lt;/span&gt;&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;一个神奇的文档站点生成器&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;h1 id=&#34;搭建&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#搭建&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;搭建&lt;/span&gt;&lt;/h1&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cDovL3JlcG8ueGlvbmd6aS50b3Av&#34;&gt;预览我的知识库&lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/223828.png&#34; alt=&#34;223828&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;必备环境&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#必备环境&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;必备环境&lt;/span&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;node&lt;/li&gt;
-&lt;li&gt;npm&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;全局安装&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#全局安装&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;全局安装&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;安装脚手架工具 docsify-cli，安装过程中较慢的可以切换 npm 源为 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuamlhbnNodS5jb20vZGV2b3BzL25wbS1kZXBsb3kubWQ=&#34;&gt;cnpm&lt;/span&gt;&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;npm&lt;/span&gt; i docsify-cli -g&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;验证&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#验证&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;验证&lt;/span&gt;&lt;/h2&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ docsify -v&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;出现版本好几安装成功&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/230436.png&#34; alt=&#34;屏幕截图 2022-03-15 230436&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;初始化文档&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#初始化文档&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;初始化文档&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;docs 为项目文件，可以自定义。&lt;/p&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ docsify init docs&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;执行完以上命令 docs 文件目录下会生成以下 3 个文件：&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/230337.png&#34; alt=&#34;屏幕截图 2022-03-15 230337&#34; /&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;index.html&lt;/code&gt; ：入口文件。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;README.md&lt;/code&gt; ：默认做为主页内容渲染。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;.nojekyll&lt;/code&gt; ：防止 Github 忽略带下划线的文件。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;h2 id=&#34;进入项目&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#进入项目&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;进入项目&lt;/span&gt;&lt;/h2&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token builtin class-name&#34;&gt;cd&lt;/span&gt; docs&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;启动本地服务预览&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#启动本地服务预览&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;启动本地服务预览&lt;/span&gt; **&lt;/h2&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ docsify serve&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/230315.png&#34; alt=&#34;230315&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;直接编辑 docs/README.md 就能更新文档内容，当然也可以添加更多页面。&lt;/p&gt;
-&lt;h1 id=&#34;部署&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#部署&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;部署&lt;/span&gt;&lt;/h1&gt;
-&lt;h2 id=&#34;github新建一个仓库&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#github新建一个仓库&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;GitHub 新建一个仓库&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/234313.png&#34; alt=&#34;234313&#34; /&gt;&lt;/p&gt;
-&lt;h2 id=&#34;将本地项目推送到github&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#将本地项目推送到github&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;将本地项目推送到 GitHub&lt;/span&gt;&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;本地 docs 目录下，打开 Git，输入命令： &lt;code&gt;git init&lt;/code&gt; 。初始化本地仓库 docs&lt;/li&gt;
-&lt;li&gt;将文件添加到仓库并提交：&lt;/li&gt;
-&lt;/ul&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; init   // 初始化版本库&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; &lt;span class=&#34;token builtin class-name&#34;&gt;.&lt;/span&gt;   // 添加文件到版本库（只是添加到缓存区），.代表添加文件夹下所有文件 &lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; commit -m &lt;span class=&#34;token string&#34;&gt;&#34;first commit&#34;&lt;/span&gt; // 把添加的文件提交到版本库，并填写提交备注&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; remote &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; origin 你的远程库地址  // 把本地库与远程库关联&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push -u origin master    // 第一次推送时&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ &lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push origin master  // 第一次推送后，直接使用该命令即可推送修改&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;h2 id=&#34;开启githubpage&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#开启githubpage&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;开启 GitHubPage&lt;/span&gt;&lt;/h2&gt;
-&lt;p&gt;选择分支&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/230436.png&#34; alt=&#34;230436&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;点击给出的域名或者自定义域名查看&lt;/p&gt;
-&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/124509.png&#34; alt=&#34;124509&#34; /&gt;&lt;/p&gt;
-&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8jLw==&#34;&gt;基础配置与官方无异，点击查看&lt;/span&gt;&lt;/p&gt;
-</content>
-        <category term="Docsify" scheme="https://ki.xiongzi.top/categories/Docsify/" />
-        <category term="Docsify" scheme="https://ki.xiongzi.top/tags/Docsify/" />
-        <updated>2022-03-16T04:40:20.000Z</updated>
+        <updated>2022-03-15T04:44:41.000Z</updated>
     </entry>
     <entry>
         <id>https://ki.xiongzi.top/post/21631/</id>
