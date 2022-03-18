@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://ki.xiongzi.top/collect/history/index.html</loc>
+    
+    <lastmod>2022-03-18</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://ki.xiongzi.top/post/88222415/</loc>
     
     <lastmod>2022-03-18</lastmod>
@@ -47,7 +56,7 @@
   </url>
   
   <url>
-    <loc>https://ki.xiongzi.top/social%20contact/links/index.html</loc>
+    <loc>https://ki.xiongzi.top/collect/index.html</loc>
     
     <lastmod>2022-03-09</lastmod>
     
@@ -56,25 +65,7 @@
   </url>
   
   <url>
-    <loc>https://ki.xiongzi.top/idle/Notes/index.html</loc>
-    
-    <lastmod>2022-03-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ki.xiongzi.top/idle/history/index.html</loc>
-    
-    <lastmod>2022-03-05</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://ki.xiongzi.top/social%20contact/comments/index.html</loc>
+    <loc>https://ki.xiongzi.top/collect/comments/index.html</loc>
     
     <lastmod>2022-03-05</lastmod>
     
@@ -92,7 +83,7 @@
   </url>
   
   <url>
-    <loc>https://ki.xiongzi.top/social%20contact/about/index.html</loc>
+    <loc>https://ki.xiongzi.top/collect/about/index.html</loc>
     
     <lastmod>2022-03-01</lastmod>
     
