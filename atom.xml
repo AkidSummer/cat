@@ -1,18 +1,18 @@
 <?xml version="1.0"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://ki.xiongzi.top</id>
+    <id>https://gitee.io/kiraral/cat</id>
     <title>海に行く</title>
     <subtitle>我有一个梦，也许有一天，灿烂的阳光能照进黑暗森林</subtitle>
-    <icon>https://ki.xiongzi.top/images/favicon.ico</icon>
-    <link href="https://ki.xiongzi.top" />
+    <icon>https://gitee.io/kiraral/cat/images/favicon.ico</icon>
+    <link href="https://gitee.io/kiraral/cat" />
     <author>
       <name>海に行く</name>
     </author>
     <updated>2022-03-16T04:40:20.000Z</updated>
     <entry>
-        <id>https://ki.xiongzi.top/post/49435/</id>
+        <id>https://gitee.io/kiraral/cat/post/49435/</id>
         <title>使用Docsify搭建自己的知识库</title>
-        <link rel="alternate" href="https://ki.xiongzi.top/post/49435/"/>
+        <link rel="alternate" href="https://gitee.io/kiraral/cat/post/49435/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/49435/&#34;&gt;🚀基本环境&lt;/a&gt; - &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8jLw==&#34;&gt;💌基础配置&lt;/span&gt; - &lt;a href=&#34;/post/88222415/&#34;&gt;📌定制功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -64,14 +64,14 @@
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/124509.png&#34; alt=&#34;124509&#34; /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8jLw==&#34;&gt;基础配置与官方无异，点击查看&lt;/span&gt;&lt;/p&gt;
 </content>
-        <category term="Docsify" scheme="https://ki.xiongzi.top/categories/Docsify/" />
-        <category term="Docsify" scheme="https://ki.xiongzi.top/tags/Docsify/" />
+        <category term="Docsify" scheme="https://gitee.io/kiraral/cat/categories/Docsify/" />
+        <category term="Docsify" scheme="https://gitee.io/kiraral/cat/tags/Docsify/" />
         <updated>2022-03-16T04:40:20.000Z</updated>
     </entry>
     <entry>
-        <id>https://ki.xiongzi.top/post/88222415/</id>
+        <id>https://gitee.io/kiraral/cat/post/88222415/</id>
         <title>Docsify定制功能</title>
-        <link rel="alternate" href="https://ki.xiongzi.top/post/88222415/"/>
+        <link rel="alternate" href="https://gitee.io/kiraral/cat/post/88222415/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/49435/&#34;&gt;🚀基本环境&lt;/a&gt; - &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8jLw==&#34;&gt;💌基础配置&lt;/span&gt; - &lt;a href=&#34;/post/88222415/&#34;&gt;📌定制功能&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -213,14 +213,14 @@ An alert of type ‘danger’ using global style ‘callout’.&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;!&lt;/span&gt;-- 访问量统计 --&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;script async &lt;span class=&#34;token assign-left variable&#34;&gt;src&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;/script&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;在想添加的 md 文件中添加：&lt;/p&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;br&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;span &lt;span class=&#34;token assign-left variable&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;busuanzi_container_site_pv&#34;&lt;/span&gt; &lt;span class=&#34;token assign-left variable&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;display:none&#39;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    👀 本站总访问量：&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;span &lt;span class=&#34;token assign-left variable&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;busuanzi_value_site_pv&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;/span&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; 次&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;/span&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;span &lt;span class=&#34;token assign-left variable&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;busuanzi_container_site_uv&#34;&lt;/span&gt; &lt;span class=&#34;token assign-left variable&#34;&gt;style&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#39;display:none&#39;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;    &lt;span class=&#34;token operator&#34;&gt;|&lt;/span&gt; 🚴‍♂️ 本站总访客数：&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;span &lt;span class=&#34;token assign-left variable&#34;&gt;id&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;busuanzi_value_site_uv&#34;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;/span&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt; 人&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;/span&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token operator&#34;&gt;&amp;lt;&lt;/span&gt;br&lt;span class=&#34;token operator&#34;&gt;&gt;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@main/img/123159.png&#34; alt=&#34;123159&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="Docsify" scheme="https://ki.xiongzi.top/categories/Docsify/" />
-        <category term="Docsify" scheme="https://ki.xiongzi.top/tags/Docsify/" />
+        <category term="Docsify" scheme="https://gitee.io/kiraral/cat/categories/Docsify/" />
+        <category term="Docsify" scheme="https://gitee.io/kiraral/cat/tags/Docsify/" />
         <updated>2022-03-15T04:44:41.000Z</updated>
     </entry>
     <entry>
-        <id>https://ki.xiongzi.top/post/21631/</id>
+        <id>https://gitee.io/kiraral/cat/post/21631/</id>
         <title>OpenCv4.0学习笔记</title>
-        <link rel="alternate" href="https://ki.xiongzi.top/post/21631/"/>
+        <link rel="alternate" href="https://gitee.io/kiraral/cat/post/21631/"/>
         <content type="html">&lt;h1 id=&#34;opencv40学习笔记&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#opencv40学习笔记&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;OpenCv4.0 学习笔记&lt;/span&gt;&lt;/h1&gt;
 &lt;h1 id=&#34;显示第一张图片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#显示第一张图片&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;显示第一张图片&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;环境配置了一个早上，到 10.48 分配置完毕，有点难受。还好最后显示出第一张图片。&lt;/p&gt;
@@ -337,13 +337,13 @@ An alert of type ‘danger’ using global style ‘callout’.&lt;/p&gt;
 &lt;h1 id=&#34;高斯双边模糊&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#高斯双边模糊&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;高斯双边模糊&lt;/span&gt;&lt;/h1&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/Miscellaneous@main/opencv/mohu.png&#34; alt=&#34;在这里插入图片描述&#34; /&gt;&lt;/p&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;span&gt;C++ 实例&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;QuickDemo&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;bifilter_demo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Mat&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;image&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token class-name&#34;&gt;Mat&lt;/span&gt; dst&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token function&#34;&gt;bilateralFilter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;image&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;dst&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	   &lt;span class=&#34;token comment&#34;&gt;// 参数 1 代表原图，参数 2 代表处理之后的图像，参数 3 色彩空间。参数 4 表示坐标空间，双边是指 色彩空间和坐标空间。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token function&#34;&gt;namedWindow&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;双边模糊&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; WINDOW_FREERATIO&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 创建了一个新窗口，参数 1 表示名称，第二个参数代表一个自由的比例&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token function&#34;&gt;imshow&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;双边模糊&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dst&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 表示显示在新创建的&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
-        <category term="OpenCV" scheme="https://ki.xiongzi.top/categories/OpenCV/" />
+        <category term="OpenCV" scheme="https://gitee.io/kiraral/cat/categories/OpenCV/" />
         <updated>2022-03-09T11:39:48.000Z</updated>
     </entry>
     <entry>
-        <id>https://ki.xiongzi.top/post/36862/</id>
+        <id>https://gitee.io/kiraral/cat/post/36862/</id>
         <title>跨境通VISA/万事达借记卡介绍与网上支付体验</title>
-        <link rel="alternate" href="https://ki.xiongzi.top/post/36862/"/>
+        <link rel="alternate" href="https://gitee.io/kiraral/cat/post/36862/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/36862/&#34;&gt;🚀VISA / 万事达&lt;/a&gt; - &lt;a href=&#34;/post/17977/&#34;&gt;📌购汇与转账&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1535,14 +1535,14 @@ An alert of type ‘danger’ using global style ‘callout’.&lt;/p&gt;
 &lt;h2 id=&#34;中银跨境go留学大返现活动&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#中银跨境go留学大返现活动&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label warning&#34;&gt;中银跨境 GO 留学大返现活动&lt;/span&gt;&lt;/h2&gt;
 &lt;p&gt;&lt;img data-src=&#34;https://cdn.jsdelivr.net/gh/AkidSummer/cdn@master/img/wan/rebate-2022-poster.jpg&#34; alt=&#34;img&#34; /&gt;&lt;/p&gt;
 </content>
-        <category term="万事达" scheme="https://ki.xiongzi.top/categories/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
-        <category term="万事达" scheme="https://ki.xiongzi.top/tags/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
+        <category term="万事达" scheme="https://gitee.io/kiraral/cat/categories/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
+        <category term="万事达" scheme="https://gitee.io/kiraral/cat/tags/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
         <updated>2022-03-03T13:15:14.000Z</updated>
     </entry>
     <entry>
-        <id>https://ki.xiongzi.top/post/17977/</id>
+        <id>https://gitee.io/kiraral/cat/post/17977/</id>
         <title>中国银行手机银行购汇与转账教程</title>
-        <link rel="alternate" href="https://ki.xiongzi.top/post/17977/"/>
+        <link rel="alternate" href="https://gitee.io/kiraral/cat/post/17977/"/>
         <content type="html">&lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/36862/&#34;&gt;🚀VISA / 万事达&lt;/a&gt; - &lt;a href=&#34;/post/17977/&#34;&gt;📌购汇与转账&lt;/a&gt;&lt;/p&gt;
 &lt;/div&gt;
@@ -1734,8 +1734,8 @@ An alert of type ‘danger’ using global style ‘callout’.&lt;/p&gt;
 &lt;li&gt;&lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cudXNjcmVkaXRjYXJkZ3VpZGUuY29tL2ZvcmVpZ25lci1jdXJyZW5jeS1jaGFvLWFuZC1odWkv&#34;&gt;现钞和现汇的区别&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
 &lt;/ul&gt;
 </content>
-        <category term="万事达" scheme="https://ki.xiongzi.top/categories/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
-        <category term="万事达" scheme="https://ki.xiongzi.top/tags/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
+        <category term="万事达" scheme="https://gitee.io/kiraral/cat/categories/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
+        <category term="万事达" scheme="https://gitee.io/kiraral/cat/tags/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
         <updated>2022-03-03T13:15:14.000Z</updated>
     </entry>
 </feed>
