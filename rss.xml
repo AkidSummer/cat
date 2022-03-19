@@ -3,8 +3,8 @@
     <channel>
         <title>海に行く</title>
         <subtitle>我有一个梦，也许有一天，灿烂的阳光能照进黑暗森林</subtitle>
-        <icon>https://ki.xiongzi.top/images/favicon.ico</icon>
-        <link>https://ki.xiongzi.top</link>
+        <icon>https://xiongzi.top/images/favicon.ico</icon>
+        <link>https://xiongzi.top</link>
         <author>
           <name>海に行く</name>
         </author>
@@ -13,11 +13,11 @@
         <pubDate>Wed, 16 Mar 2022 12:40:20 +0800</pubDate>
         <lastBuildDate>Wed, 16 Mar 2022 12:40:20 +0800</lastBuildDate>
         <item>
-            <guid isPermalink="true">https://ki.xiongzi.top/post/49435/</guid>
+            <guid isPermalink="true">https://xiongzi.top/post/49435/</guid>
             <title>使用Docsify搭建自己的知识库</title>
-            <link>https://ki.xiongzi.top/post/49435/</link>
-            <category term="Docsify" scheme="https://ki.xiongzi.top/categories/Docsify/" />
-            <category term="Docsify" scheme="https://ki.xiongzi.top/tags/Docsify/" />
+            <link>https://xiongzi.top/post/49435/</link>
+            <category term="Docsify" scheme="https://xiongzi.top/categories/Docsify/" />
+            <category term="Docsify" scheme="https://xiongzi.top/tags/Docsify/" />
             <pubDate>Wed, 16 Mar 2022 12:40:20 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/49435/&#34;&gt;🚀基本环境&lt;/a&gt; - &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8jLw==&#34;&gt;💌基础配置&lt;/span&gt; - &lt;a href=&#34;/post/88222415/&#34;&gt;📌定制功能&lt;/a&gt;&lt;/p&gt;
@@ -72,11 +72,11 @@
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://ki.xiongzi.top/post/88222415/</guid>
+            <guid isPermalink="true">https://xiongzi.top/post/88222415/</guid>
             <title>Docsify定制功能</title>
-            <link>https://ki.xiongzi.top/post/88222415/</link>
-            <category term="Docsify" scheme="https://ki.xiongzi.top/categories/Docsify/" />
-            <category term="Docsify" scheme="https://ki.xiongzi.top/tags/Docsify/" />
+            <link>https://xiongzi.top/post/88222415/</link>
+            <category term="Docsify" scheme="https://xiongzi.top/categories/Docsify/" />
+            <category term="Docsify" scheme="https://xiongzi.top/tags/Docsify/" />
             <pubDate>Tue, 15 Mar 2022 12:44:41 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/49435/&#34;&gt;🚀基本环境&lt;/a&gt; - &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9kb2NzaWZ5LmpzLm9yZy8jLw==&#34;&gt;💌基础配置&lt;/span&gt; - &lt;a href=&#34;/post/88222415/&#34;&gt;📌定制功能&lt;/a&gt;&lt;/p&gt;
@@ -221,10 +221,10 @@ An alert of type ‘danger’ using global style ‘callout’.&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://ki.xiongzi.top/post/21631/</guid>
+            <guid isPermalink="true">https://xiongzi.top/post/21631/</guid>
             <title>OpenCv4.0学习笔记</title>
-            <link>https://ki.xiongzi.top/post/21631/</link>
-            <category term="OpenCV" scheme="https://ki.xiongzi.top/categories/OpenCV/" />
+            <link>https://xiongzi.top/post/21631/</link>
+            <category term="OpenCV" scheme="https://xiongzi.top/categories/OpenCV/" />
             <pubDate>Wed, 09 Mar 2022 19:39:48 +0800</pubDate>
             <description><![CDATA[ &lt;h1 id=&#34;opencv40学习笔记&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#opencv40学习笔记&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;OpenCv4.0 学习笔记&lt;/span&gt;&lt;/h1&gt;
 &lt;h1 id=&#34;显示第一张图片&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#显示第一张图片&#34;&gt;#&lt;/a&gt; &lt;span class=&#34;label primary&#34;&gt;显示第一张图片&lt;/span&gt;&lt;/h1&gt;
@@ -344,11 +344,11 @@ An alert of type ‘danger’ using global style ‘callout’.&lt;/p&gt;
 &lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;span&gt;C++ 实例&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;void&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;QuickDemo&lt;/span&gt;&lt;span class=&#34;token operator&#34;&gt;::&lt;/span&gt;&lt;span class=&#34;token function&#34;&gt;bifilter_demo&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Mat&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;&amp;amp;&lt;/span&gt;image&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#123;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token class-name&#34;&gt;Mat&lt;/span&gt; dst&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token function&#34;&gt;bilateralFilter&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;image&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;dst&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;100&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;token number&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	   &lt;span class=&#34;token comment&#34;&gt;// 参数 1 代表原图，参数 2 代表处理之后的图像，参数 3 色彩空间。参数 4 表示坐标空间，双边是指 色彩空间和坐标空间。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token function&#34;&gt;namedWindow&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;双边模糊&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; WINDOW_FREERATIO&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 创建了一个新窗口，参数 1 表示名称，第二个参数代表一个自由的比例&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;	&lt;span class=&#34;token function&#34;&gt;imshow&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;双边模糊&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;,&lt;/span&gt; dst&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;   &lt;span class=&#34;token comment&#34;&gt;// 表示显示在新创建的&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;&amp;#125;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt; ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://ki.xiongzi.top/post/17977/</guid>
+            <guid isPermalink="true">https://xiongzi.top/post/17977/</guid>
             <title>中国银行手机银行购汇与转账教程</title>
-            <link>https://ki.xiongzi.top/post/17977/</link>
-            <category term="万事达" scheme="https://ki.xiongzi.top/categories/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
-            <category term="万事达" scheme="https://ki.xiongzi.top/tags/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
+            <link>https://xiongzi.top/post/17977/</link>
+            <category term="万事达" scheme="https://xiongzi.top/categories/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
+            <category term="万事达" scheme="https://xiongzi.top/tags/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
             <pubDate>Thu, 03 Mar 2022 21:15:14 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/36862/&#34;&gt;🚀VISA / 万事达&lt;/a&gt; - &lt;a href=&#34;/post/17977/&#34;&gt;📌购汇与转账&lt;/a&gt;&lt;/p&gt;
@@ -543,11 +543,11 @@ An alert of type ‘danger’ using global style ‘callout’.&lt;/p&gt;
  ]]></description>
         </item>
         <item>
-            <guid isPermalink="true">https://ki.xiongzi.top/post/36862/</guid>
+            <guid isPermalink="true">https://xiongzi.top/post/36862/</guid>
             <title>跨境通VISA/万事达借记卡介绍与网上支付体验</title>
-            <link>https://ki.xiongzi.top/post/36862/</link>
-            <category term="万事达" scheme="https://ki.xiongzi.top/categories/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
-            <category term="万事达" scheme="https://ki.xiongzi.top/tags/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
+            <link>https://xiongzi.top/post/36862/</link>
+            <category term="万事达" scheme="https://xiongzi.top/categories/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
+            <category term="万事达" scheme="https://xiongzi.top/tags/%E4%B8%87%E4%BA%8B%E8%BE%BE/" />
             <pubDate>Thu, 03 Mar 2022 21:15:14 +0800</pubDate>
             <description><![CDATA[ &lt;div class=&#34;note primary&#34;&gt;
 &lt;p&gt;🦄快速开始 -&lt;a href=&#34;/post/36862/&#34;&gt;🚀VISA / 万事达&lt;/a&gt; - &lt;a href=&#34;/post/17977/&#34;&gt;📌购汇与转账&lt;/a&gt;&lt;/p&gt;
